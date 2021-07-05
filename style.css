@@ -5,19 +5,24 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 25px;
+}
 .loki-mia{
     color:red;
 }
-h2{
-    color: gray;
-}
+
 .flexible-loki{
-    display: flex;
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
    
 }
-section{
+.true-king{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.meri-marji{
     display: flex;
     margin-bottom: 100px;
 }
@@ -28,9 +33,7 @@ section{
 .half-width img{
     width: 110%;
 }
-p{
-    font-size: 18px;
-}
+
 .link-button{
     text-decoration: none;
     color: white;
@@ -38,4 +41,29 @@ p{
     font-weight: 700;
     padding: 10px 40px;
     border-radius: 10px;
+}
+.teri-marji{
+    display: flex
+}
+.experience-item{
+    width: 40%;
+    padding-left: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 20px 10px 40px gray;
+    border-radius: 10px;
+}
+#humara-marji{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
+.uski-marji{
+    margin-bottom: 100px;
+}
+.last-marji{
+    color: gray;
 }
