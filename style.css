@@ -1,0 +1,37 @@
+body{
+    font-family: 'Otomanopee One', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.loki-mia{
+    color:red;
+}
+h2{
+    color: gray;
+}
+.flexible-loki{
+    display: flex;
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+   
+}
+.half-width{
+    width: 50%;
+    padding-left:0px;
+}
+.half-width img{
+    width: 110%;
+}
+p{
+    font-size: 18px;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(gold, tomato);
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
